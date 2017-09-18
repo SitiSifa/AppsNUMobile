@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MenuUtama"
+    tools:showIn="@layout/app_bar_menu_utama">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:src="@drawable/header_nu"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selamat datang di NU Mobile"
+            android:textSize="20sp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="140dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Solusi dan layanan digital warga Nahdlatul Ulama"
+            android:textSize="12sp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="165dp"
+            android:textColor="#fff"
+            />
+        <!-- baris 1-->
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/caknu"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/btn_cak"
+            android:layout_marginTop="195dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cak NU"
+            android:textSize="10sp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="245dp"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/numoney"
+            android:id="@+id/btn_money"
+            android:layout_marginTop="195dp"
+            android:layout_marginLeft="125dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NU Money"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="245dp"
+            android:textSize="9sp"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/pasar"
+            android:id="@+id/btn_pasar"
+            android:layout_marginTop="195dp"
+            android:layout_marginLeft="210dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pasar NU"
+            android:textSize="10sp"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="245dp"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/dokter"
+            android:id="@+id/btn_dokter"
+            android:layout_marginTop="195dp"
+            android:layout_marginLeft="288dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dokter NU"
+            android:textSize="10sp"
+            android:layout_marginLeft="288dp"
+            android:layout_marginTop="245dp"
+            android:textColor="#fff"
+            />
+
+        <!-- baris 2-->
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/banking"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/btn_banking"
+            android:layout_marginTop="270dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-Banking"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="321dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/berbagi"
+            android:id="@+id/btn_berbagi"
+            android:layout_marginTop="270dp"
+            android:layout_marginLeft="125dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NU Berbagi"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="321dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+            />
+
+        <Button
+            android:id="@+id/btn_wirausaha"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="270dp"
+            android:background="@drawable/wirausaha" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wirausaha NU"
+            android:textColor="#fff"
+            android:textSize="10sp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="321dp"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/pendidikan"
+            android:id="@+id/btn_learning"
+            android:layout_marginTop="270dp"
+            android:layout_marginLeft="288dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NU Learning"
+            android:layout_marginLeft="285dp"
+            android:layout_marginTop="321dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+            android:id="@+id/textView2" />
+
+        <!-- baris 3-->
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/channel"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/btn_channel"
+            android:layout_marginTop="350dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NU Channel"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="402dp"
+            android:textSize="10sp"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/library"
+            android:id="@+id/btn_library"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="125dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NU Library"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="402dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/potensidesa"
+            android:id="@+id/btn_desa"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="210dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Potensi Desa"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="402dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/info"
+            android:id="@+id/btn_info"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="288dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NU Info"
+            android:layout_marginLeft="293dp"
+            android:layout_marginTop="402dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+            />
+
+        <!-- baris 4-->
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/amaliyah"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/btn_amaliyah"
+            android:layout_marginTop="430dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amaliyah NU"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="480dp"
+            android:textSize="10sp"
+            android:textColor="#fff"
+            />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/transaksipulsa_"
+            android:id="@+id/btn_pulsa"
+            android:layout_marginTop="430dp"
+            android:layout_marginLeft="125dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transaksi Pulsa"
+            android:layout_marginLeft="117dp"
+            android:layout_marginTop="480dp"
+            android:textSize="10sp"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/invest"
+            android:id="@+id/btn_invest"
+            android:layout_marginTop="430dp"
+            android:layout_marginLeft="210dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NU Invest"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="480dp"
+            android:textSize="10sp"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/gamesmusic"
+            android:id="@+id/btn_game"
+            android:layout_marginTop="430dp"
+            android:layout_marginLeft="288dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music/Game"
+            android:layout_marginLeft="284dp"
+            android:layout_marginTop="480dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+            />
+
+        <!-- baris 5-->
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/iot"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/btn_iot"
+            android:layout_marginTop="505dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IoT Solution"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="555dp"
+            android:textSize="10sp"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/pembiaayaan"
+            android:id="@+id/btn_pembiyaan"
+            android:layout_marginTop="505dp"
+            android:layout_marginLeft="125dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pembiayaan NU"
+            android:layout_marginLeft="114dp"
+            android:layout_marginTop="555dp"
+            android:textSize="10sp"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/pertanu"
+            android:id="@+id/btn_pertanian"
+            android:layout_marginTop="505dp"
+            android:layout_marginLeft="210dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pertanu"
+            android:layout_marginLeft="218dp"
+            android:layout_marginTop="555dp"
+            android:textSize="10sp"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/lapor"
+            android:id="@+id/btn_lapor"
+            android:layout_marginTop="505dp"
+            android:layout_marginLeft="288dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lapor"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="555dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/halal"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/btn_halal"
+            android:layout_marginTop="580dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Halal"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="630dp"
+            android:textSize="10sp"
+            android:textColor="#fff"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

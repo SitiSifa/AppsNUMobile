@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.NU.numobile.activity.channel.MenuChannel"
+    tools:showIn="@layout/activity_menu_channel">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/header_channel"
+            android:scaleType="fitXY"
+            />
+
+        <Button
+            android:layout_width="164dp"
+            android:layout_height="190dp"
+            android:background="@drawable/nuchanngel"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/btn_pembayaran"
+            android:layout_marginTop="150dp"
+            />
+
+        <Button
+            android:layout_width="164dp"
+            android:layout_height="190dp"
+            android:background="@drawable/tv9"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="150dp"
+            />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

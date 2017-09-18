@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ncc"
+            android:icon="@drawable/ic_ncc"
+            android:title="NCC" />
+        <item
+            android:id="@+id/nav_visible"
+            android:icon="@drawable/ic_visible"
+            android:title="I'm Visible" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_visible"
+            android:title="Login" />
+        <item
+            android:id="@+id/nav_balance"
+            android:icon="@drawable/ic_balance"
+            android:title="My Balance" />
+        <item
+            android:id="@+id/nav_media"
+            android:icon="@drawable/numobile"
+            android:title="My Media" />
+        <item
+            android:id="@+id/nav_minimize"
+            android:icon="@drawable/ic_minimize"
+            android:title="Minimize My Phone Bill" />
+        <item
+            android:id="@+id/nav_greeting"
+            android:icon="@drawable/ic_minimize"
+            android:title="Geeting and Voicemail" />
+        <item
+            android:id="@+id/nav_usage"
+            android:icon="@drawable/ic_usage"
+            android:title="Usage" />
+        <item
+            android:id="@+id/nav_stop"
+            android:icon="@drawable/ic_stop"
+            android:title="Stop This Person" />
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@drawable/ic_call"
+            android:title="Call Forwarding" />
+        <item
+            android:id="@+id/nav_design"
+            android:icon="@drawable/ic_minimize"
+            android:title="Design" />
+        <item
+            android:id="@+id/nav_sounds"
+            android:icon="@drawable/ic_sounds"
+            android:title="Sounds" />
+        <item
+            android:id="@+id/nav_tell"
+            android:icon="@drawable/ic_frends"
+            android:title="Tell My Friends" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_setting"
+            android:title="General Settings" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_minimize"
+            android:title="About NU" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_news"
+            android:title="News" />
+    </group>
+
+
+</menu>

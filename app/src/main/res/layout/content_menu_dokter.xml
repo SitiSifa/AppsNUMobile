@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.NU.numobile.activity.dokter.MenuDokter"
+    tools:showIn="@layout/activity_menu_dokter">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/header_dokter"
+            android:scaleType="fitXY"
+            />
+
+        <Button
+            android:layout_width="164dp"
+            android:layout_height="190dp"
+            android:background="@drawable/konsultasi"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/btn_online"
+            android:layout_marginTop="150dp"
+            />
+
+        <Button
+            android:layout_width="164dp"
+            android:layout_height="190dp"
+            android:background="@drawable/medical"
+            android:layout_marginLeft="200dp"
+            android:id="@+id/btn_medical"
+            android:layout_marginTop="150dp"
+            />
+
+        <Button
+            android:layout_width="164dp"
+            android:layout_height="190dp"
+            android:background="@drawable/dokterlist"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/btn_dokterlist"
+            android:layout_marginTop="350dp"
+            />
+
+        <Button
+            android:layout_width="164dp"
+            android:layout_height="190dp"
+            android:background="@drawable/rumahsakit"
+            android:layout_marginLeft="200dp"
+            android:id="@+id/btn_rs"
+            android:layout_marginTop="350dp"
+            />
+
+        <Button
+            android:layout_width="164dp"
+            android:layout_height="190dp"
+            android:background="@drawable/klinikherbal"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/btn_klinik"
+            android:layout_marginTop="550dp"
+            />
+
+        <Button
+            android:layout_width="164dp"
+            android:layout_height="190dp"
+            android:background="@drawable/pondokhikmah"
+            android:layout_marginLeft="200dp"
+            android:id="@+id/btn_pondok"
+            android:layout_marginTop="550dp"
+            />
+
+        <Button
+            android:layout_width="164dp"
+            android:layout_height="190dp"
+            android:background="@drawable/apotek"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/btn_apotek"
+            android:layout_marginTop="750dp"
+            />
+
+        <Button
+            android:layout_width="164dp"
+            android:layout_height="190dp"
+            android:background="@drawable/sinshe"
+            android:layout_marginLeft="200dp"
+            android:id="@+id/btn_sinshe"
+            android:layout_marginTop="750dp"
+            />
+
+        <Button
+            android:layout_width="164dp"
+            android:layout_height="190dp"
+            android:background="@drawable/infokesehatan"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/btn_kesehatan"
+            android:layout_marginTop="950dp"
+            />
+
+        <Button
+            android:layout_width="164dp"
+            android:layout_height="190dp"
+            android:background="@drawable/kalkulatorkesehatan"
+            android:layout_marginLeft="200dp"
+            android:id="@+id/btn_kalori"
+            android:layout_marginTop="950dp"
+            />
+
+        <Button
+            android:layout_width="164dp"
+            android:layout_height="190dp"
+            android:background="@drawable/kalendarkehamilan"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/btn_kehamilan"
+            android:layout_marginTop="1150dp"
+            />
+
+        <Button
+            android:layout_width="164dp"
+            android:layout_height="190dp"
+            android:background="@drawable/indeksmasatubuh"
+            android:layout_marginLeft="200dp"
+            android:id="@+id/btn_indeks"
+            android:layout_marginTop="1150dp"
+            />
+
+        <Button
+            android:layout_width="164dp"
+            android:layout_height="190dp"
+            android:background="@drawable/panic"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/btn_panic"
+            android:layout_marginTop="1350dp"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

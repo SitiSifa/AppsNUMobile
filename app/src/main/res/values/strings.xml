@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NU Mobile</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cak_nu">Cak NU</string>
+    <string name="title_activity_menu_banking">E-Banking</string>
+    <string name="title_activity_menu_amaliyah">Amaliyah NU</string>
+    <string name="title_activity_menu_berbagi">NU Berbagi</string>
+    <string name="title_activity_menu_channel">NU Channel</string>
+    <string name="title_activity_menu_podes">Potensi Desa</string>
+    <string name="title_activity_menu_dokter">Dokter NU</string>
+    <string name="title_activity_menu_halal">Halal</string>
+    <string name="title_activity_menu_info">NU Info</string>
+    <string name="title_activity_menu_invest">NU Invest</string>
+    <string name="title_activity_menu_io_t">IoT Solution</string>
+    <string name="title_activity_menu_lapor">Lapor</string>
+    <string name="title_activity_menu_learning">NU Learning</string>
+    <string name="title_activity_menu_library">NU Library</string>
+    <string name="title_activity_menu_money">NU Money</string>
+    <string name="title_activity_menu_music">Music/Game</string>
+    <string name="title_activity_menu_pasar">Pasar NU</string>
+    <string name="title_activity_menu_pembiayaan">Pembiayaan NU</string>
+    <string name="title_activity_menu_pertanu">Pertanu</string>
+    <string name="title_activity_menu_pulsa">Transaksi Pulsa</string>
+    <string name="title_activity_menu_wirausaha">Wirausaha NU</string>
+</resources>
