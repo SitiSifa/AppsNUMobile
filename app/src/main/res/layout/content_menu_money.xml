@@ -45,7 +45,7 @@
         <Button
             android:layout_width="164dp"
             android:layout_height="190dp"
-            android:background="@drawable/crowdfunding"
+            android:background="@drawable/crowd"
             android:layout_marginLeft="25dp"
             android:id="@+id/btn_transaksi"
             android:layout_marginTop="350dp"

@@ -260,7 +260,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="NU Info"
+            android:text="NU News"
             android:layout_marginLeft="293dp"
             android:layout_marginTop="402dp"
             android:textColor="#fff"
@@ -271,7 +271,7 @@
         <Button
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="@drawable/amaliyah"
+            android:background="@drawable/halal"
             android:layout_marginLeft="40dp"
             android:id="@+id/btn_amaliyah"
             android:layout_marginTop="430dp"
@@ -279,7 +279,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Amaliyah NU"
+            android:text="Halal"
             android:layout_marginLeft="36dp"
             android:layout_marginTop="480dp"
             android:textSize="10sp"
@@ -335,8 +335,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Music/Game"
-            android:layout_marginLeft="284dp"
+            android:text="NU Fun"
+            android:layout_marginLeft="295dp"
             android:layout_marginTop="480dp"
             android:textColor="#fff"
             android:textSize="10sp"
