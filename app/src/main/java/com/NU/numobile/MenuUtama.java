@@ -216,14 +216,14 @@ public class MenuUtama extends AppCompatActivity
 
 
         //Baris 5
-        Button iot = (Button) findViewById(R.id.btn_iot);
-        iot.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MenuUtama.this, MenuIoT.class);
-                startActivity(intent);
-            }
-        });
+//        Button iot = (Button) findViewById(R.id.btn_iot);
+//        iot.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MenuUtama.this, MenuIoT.class);
+//                startActivity(intent);
+//            }
+//        });
 
         Button pembiayaan = (Button) findViewById(R.id.btn_pembiyaan);
         pembiayaan.setOnClickListener(new View.OnClickListener() {
