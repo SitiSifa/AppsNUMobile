@@ -26,9 +26,9 @@
         <Button
             android:layout_width="164dp"
             android:layout_height="190dp"
-            android:background="@drawable/bankbca"
+            android:background="@drawable/bankbtpn"
             android:layout_marginLeft="25dp"
-            android:id="@+id/btn_bca"
+            android:id="@+id/btpn"
             android:layout_marginTop="150dp"
             />
 
@@ -53,7 +53,7 @@
         <Button
             android:layout_width="164dp"
             android:layout_height="190dp"
-            android:background="@drawable/bankbtpn"
+            android:background="@drawable/bankbca"
             android:layout_marginLeft="200dp"
             android:id="@+id/btn_bri"
             android:layout_marginTop="350dp"

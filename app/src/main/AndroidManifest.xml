@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.NU.numobile">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -104,6 +105,10 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MenuUtama"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.banking.BankingBTPN"
+            android:label="@string/title_activity_banking_btpn"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
