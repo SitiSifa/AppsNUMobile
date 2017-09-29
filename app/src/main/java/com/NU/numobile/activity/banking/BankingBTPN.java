@@ -1,15 +1,11 @@
 package com.NU.numobile.activity.banking;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.KeyEvent;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-
-
 import com.NU.numobile.R;
 
 public class BankingBTPN extends AppCompatActivity {
@@ -26,6 +22,12 @@ public class BankingBTPN extends AppCompatActivity {
         view = (WebView) this.findViewById(R.id.webview);
         view.getSettings().setJavaScriptEnabled(true);
         view.setWebViewClient(new MyBrowser());
+        view.getSettings().setLoadsImagesAutomatically(true);
+        view.getSettings().setJavaScriptEnabled(true);
+        view.getSettings().setBuiltInZoomControls(true);
+        view.getSettings().setDisplayZoomControls(false);
+        view.getSettings().setLoadWithOverviewMode(true);
+        view.getSettings().setUseWideViewPort(true);
         view.loadUrl("https://btpnwow.btpn.com/");
 
     }

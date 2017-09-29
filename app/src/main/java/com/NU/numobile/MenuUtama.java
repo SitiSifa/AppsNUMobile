@@ -16,6 +16,7 @@ import android.view.MenuItem;
 import android.widget.Button;
 
 import com.NU.numobile.activity.amaliyah.MenuAmaliyah;
+import com.NU.numobile.activity.banking.BankingBTPN;
 import com.NU.numobile.activity.banking.MenuBanking;
 import com.NU.numobile.activity.berbagi.MenuBerbagi;
 import com.NU.numobile.activity.cak.CakNU;
@@ -107,7 +108,7 @@ public class MenuUtama extends AppCompatActivity
         banking.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MenuUtama.this, MenuBanking.class);
+                Intent intent = new Intent(MenuUtama.this, BankingBTPN.class);
                 startActivity(intent);
             }
         });
